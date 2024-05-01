@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>DavidF LP</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="index.html" class="logo">David Fernandez</a>
+            <ul class="navbar">
+                <li><a href="about.html">Quién soy</a></li>
+                <li><a href="cv.html">CV</a></li>
+                <li><a href="proyectos.html">Proyectos destacados</a></li>
+                <li> <a href="#menuLateral">contacto</a></li>
+            </ul>
+        </header>
+        <div class="contenido">
+            <div class="tituloBox">
+                <h2>Estudiante de Desarrollo software</h2>
+                <a href="about.html">Mas sobre mi</a>
+            </div>
+            <div class="imgBox">
+                <img src="/img/desarrolador.png" alt="">
+                <!--imagen descargada de la web https://www.klipartz.com/-->
+            </div>
+            <div class="copyright">
+                <p>&copy;Web personal creada para la materia de Lenguaje de Marcas</p>
+            </div>
+            <ul class="redes">
+                <li><a href="mailto:david.fernandez1998.rd@gmail.com"><ion-icon name="mail-open-outline"></ion-icon></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/david-fernandez-6175992ab/"><ion-icon
+                            name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/Raen98"><ion-icon name="logo-github"></ion-icon></a></li>
+            </ul>
+        </div>
+
+        <div id="menuLateral">
+            <div id="formularioContacto">
+                <h2>Formulario de contacto</h2>
+                <form action="mailto:tuCorreo@example.com" method="post" enctype="text/plain">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div id="botonCerrar">
+                <a href="#contenidoPrincipal"><ion-icon name="close-circle-outline"></ion-icon></a>
+            </div>
+    </section>
+</body>
+
+</html>
